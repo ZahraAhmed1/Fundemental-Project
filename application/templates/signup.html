@@ -1,25 +1,37 @@
-<html>
-    <head>
-        <title>ND Experience</title>
-    </head>
-    <body>
-        <div class='form'>
-            <form method='POST' action = ''>
-                {{ form.hidden_tag() }}
-                {{ form.first_name.label }}{{ form.first_name }}
-                <br>
-                {{ form.last_name.label}}{{ form.last_name }}
-                <br>
-                {{ form.date_of_birth.label }}{{ form.date_of_birth }}
-                <br>
-                {{ form.email.label }}{{ form.email }}
-                <br>
-                {{ form.username.label }}{{ form.username }}
-                <br>
-                {{ form.password.label }}{{ form.password }} 
-                </form> 
-        </div>
+{% extends 'layout.html' %}
 
-    </body>
+{% block body_content %}
 
-</html>
+<h2> Sign Up</h2>
+<br>
+Please fill in all boxes.
+<form action="" method='POST'>
+    <p>
+        {{form.hidden_tag()}}
+        {{form.username.label}} <br>
+        {{form.username(size=30)}}
+    </p>
+    <p>
+        {{form.first_name.label}} <br>
+        {{form.first_name(size=30)}}
+    </p>
+    <p>
+        {{form.last_name.label}} <br>
+        {{form.last_name(size=30)}}
+    </p>
+    <p>
+        {{form.date_of_birth.label}} <br>
+        {{form.date_of_birth(size=30)}}
+    </p>
+    <p>
+        {{form.email.label}} <br>
+        {{form.email(size=30)}}
+    </p>
+    <p>
+        {{form.password.label}} <br>
+        {{form.password(size=30)}}
+    </p>
+    <p> {{form.submit()}} <p>
+</form>
+
+{% endblock body_content %}

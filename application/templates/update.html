@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body_content %}
+
+<h2> Update </h2>
+<br>
+<form action="" method='POST'>
+    <p>
+        {{form.old_password.label}} <br>
+        {{form.old_password(size=30)}}
+    </p>
+    <p>
+        {{form.new_password.label}} <br>
+        {{form.new_password(size=30)}}
+    </p>
+    <p> {{form.submit()}} <p>
+</form>
+{% if form.old_password.data and form.new_password.data %}
+    <p>Password Updated!</p>
+{% endif %}
+
+{% endblock body_content %}
