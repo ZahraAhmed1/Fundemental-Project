@@ -27,7 +27,8 @@ The full page is here https://trello.com/b/JAVtsyPl/fundemental-project
 
 Here is my ERD. It is a many to many relationship for Users and Experiences However this was not fully implemented but will be with completion of the web application. 
 
-<img width="414" alt="2021-06-24 (10)" src="https://user-images.githubusercontent.com/84967213/123587205-db2f8180-d7dd-11eb-9bd2-7cde8d17c6fb.png">
+<img width="415" alt="2021-06-28 (15)" src="https://user-images.githubusercontent.com/84967213/123601053-23a36b00-d7ef-11eb-9b18-fb7b4eeecf4a.png">
+
 
 
 
