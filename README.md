@@ -1,10 +1,8 @@
 # Fundemental-Project 
 
-## Table of Contents 
-
 ## Overview 
 
-I created a CRUD web application which uses eeverything learnt so far. Some are implemented and some are not.
+I created a CRUD web application which uses everything learnt so far. Some are implemented and some are not. The web application is for neurodivergent people to share their experiences in life.
 
 ### Trello Board
 
@@ -47,6 +45,10 @@ Update - Users can update their passwords and create a new one. When the experie
 Delete - Users can delete their account and should be able to delete their experiences but there are currently no users so there is nothing to delete. Deleting should also redirect you to the page "No user found".
 
 <img width="900" alt="2021-06-28 (13)" src="https://user-images.githubusercontent.com/84967213/123588713-192da500-d7e0-11eb-97af-a33d335eb5da.png">
+
+## Future improvements
+
+This is a very basic web application but as I advance in my DevOps studies I can create a more advanced version. One of the things will be to add a captcha to log in so bots cant get into and flood the database. Another thing will be to advance each CRUD layer and the html files.
 
 
 
