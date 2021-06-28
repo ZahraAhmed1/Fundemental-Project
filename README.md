@@ -1,5 +1,16 @@
 # Fundemental-Project 
 
+## Contents
+
+* [Overview](#overview)
+* [Trello Board](#Trello-Board)
+* [Entity Relation Diagram](#Entity-Relation-Diagram)
+* [Risk Assessment](#Risk-Assessment)
+* [CRUD within the application](#CRUD-within-the-application)
+* [Future Improvements](#Future-Improvements)
+
+
+
 ## Overview 
 
 I created a CRUD web application which uses everything learnt so far. Some are implemented and some are not. The web application is for neurodivergent people to share their experiences in life.
@@ -46,9 +57,12 @@ Delete - Users can delete their account and should be able to delete their exper
 
 <img width="900" alt="2021-06-28 (13)" src="https://user-images.githubusercontent.com/84967213/123588713-192da500-d7e0-11eb-97af-a33d335eb5da.png">
 
-## Future improvements
+## Future Improvements
 
-This is a very basic web application but as I advance in my DevOps studies I can create a more advanced version. One of the things will be to add a captcha to log in so bots cant get into and flood the database. Another thing will be to advance each CRUD layer and the html files.
+This is a very basic web application but as I advance in my DevOps studies I can create a more advanced version. 
+One of the things will be to add a captcha to log in so bots cant get into and flood the database. 
+Another thing will be to advance each CRUD layer and the html files.
+
 
 
 
